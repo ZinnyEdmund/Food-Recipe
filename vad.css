@@ -1,0 +1,113 @@
+body {
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+#upper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 5%;
+    background-color: #fff;
+}
+
+.lag {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Lobster", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.span {
+    color: #FFA500;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.iconic {
+    display: flex;
+    gap: 25px;
+    color: black;
+}
+
+a {
+    color: black;
+}
+#sec1{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#sec1 img{
+    width: 80%;
+    height: 80%;
+}
+#sec2{
+    padding: 20px;
+    margin-bottom: 7%;
+}
+.lastcard{
+    margin: 50px;
+}
+.lastcard img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+#sec3{
+    align-items: center;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding: 0;
+}
+.LiciousH2{
+    align-items: center;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+}
+#sec4{
+    padding: 20px;
+    margin-bottom: 10%;
+    margin-top: 5%;
+}
+.wop-food {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.wop-food img{
+    margin-bottom: 20px;
+}
+
+.footer{
+    margin-right: 50px; 
+    margin-left: 50px;
+}
+.footer img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}

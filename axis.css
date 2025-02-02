@@ -1,0 +1,262 @@
+body {
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+#main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 5%;
+    background-color: #fff;
+}
+
+.logs {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Lobster", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.span {
+    color: #FFA500;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.icon {
+    display: flex;
+    gap: 25px;
+    color: black;
+}
+
+a {
+    color: black;
+}
+#sct1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 70px;
+    padding: 0;
+    justify-content: center;
+}
+#sct2{
+    margin: 0 auto;   
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 8%;
+}
+.fairguy img{
+    width: 90%;
+    justify-content: center;
+    height: 90%;
+    object-fit: cover;
+    display: block;
+    margin-left: 70px;
+}
+#sct3{
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-left: 8%;
+}
+.maved{
+    padding: 2rem;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.box-container{
+    flex: 1;
+    margin-right: 20px;
+}
+.myJob{
+    margin-bottom: 40px;
+}
+h2.mavH, h2.jobH2{
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.mavP, .jobP{
+    font-size: 0.8rem;
+    color: #666;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+} 
+.story{
+    text-align: right;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    padding-top: 70px;
+    right: 10px;
+    align-items: flex-start;
+    margin: 0 auto;
+    padding-right: 70px;
+}
+.storyH1{
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+.story a{
+    display: block;
+    margin-right: 5rem;
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+#sct4{
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-bottom: 70px;
+    padding: 0;
+    justify-content: center;
+}
+.chi{
+    margin: 0 auto;
+    padding: 0;
+}
+.chiH2{
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.chiP{
+    font-size: 0.8rem;
+    color: #666;
+    line-height: 1.8;
+    margin-bottom: 2rem;
+    margin-top: 25px;
+}
+.chi img{
+    width: 70%;
+    justify-content: center;
+    height: 90%;
+    object-fit: cover;
+    display: block;
+}
+.phase{
+    margin: 0 auto;
+    padding: 0;
+}
+.phaseH2{
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.phaseP{
+    font-size: 0.8rem;
+    color: #666;
+    line-height: 1.8;
+    margin-bottom: 2rem;
+    margin-top: 25px;
+}
+#mex{
+    background: linear-gradient(to right, hsla(0, 0%, 0%, 0.05), hsla(0, 0%, 0%, 0));
+    height: 170px;
+    width: 700px;
+}
+.mexi{
+    padding: 15px 20px;
+}
+.mexH2{
+    font-style: italic;
+    font-size: 1.8rem;
+}
+.txt{
+    margin-top: 7%;
+    padding: 0;
+}
+.txtH2{
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.txtP{
+    font-size: 0.8rem;
+    color: #666;
+    line-height: 1.8;
+    margin-bottom: 2rem;
+    margin-top: 25px;
+}
+#sct5{
+    padding: 20px;
+    margin-bottom: 7%;
+}
+.lastcard{
+    margin: 50px;
+}
+.lastcard img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+#sct6{
+    align-items: center;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding: 0;
+}
+.kelH2{
+    align-items: center;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+}
+#sct7{
+    padding: 20px;
+    margin-bottom: 10%;
+    margin-top: 5%;
+}
+.wap-food {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.wap-food img{
+    margin-bottom: 20px;
+}
+
+.footer{
+    margin-right: 50px; 
+    margin-left: 50px;
+}
+.footer img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
